@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "author" content = "BeyondLimits">
+    <meta name = "description" content = "Takenotes official website">
+    <meta name = "keywords" content = "Web, takenotes">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel = "stylesheet" href = "css/template.css">
+    <title>TAKENOTES - Home</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- set favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="Favicon_Image_Location"/>
+  </head>
+  <body>
+  <header>
+    <nav>
+      <div class = "nav-wrapper yellow accent-3">         
+          <a href="#" class="grey-text text-darken-4 brand-logo center">TAKE<span class="bLetter">NOTES</span></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger grey-text text-darken-2"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="#"><i class="grey-text  text-darken-4  material-icons left">home</i><span class="grey-text text-darken-4">Home</span></a></li>
+            <li><a href="pages/about.html"><i class="grey-text  text-darken-4 material-icons left">free_breakfast</i><span class="grey-text text-darken-4">About</span></a></li>
+          </ul>
+      </div>
+
+    </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li class="active"><a href="#"><i class="grey-text  text-darken-4  material-icons left">home</i>Home</a></li>
+        <li><a href="pages/about.html"><i class="grey-text  text-darken-4 material-icons left">free_breakfast</i>About</a></li>
+      </ul>
+      
+  </header>
+  <main class="container">
+    <section class="row">     
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <!---Search-->
+              <div class="row">
+                <form id="task-form">
+                  <div class="input-field s12">
+                      <input type="text" name="task" id="task">
+                      <label for="task">Write a note here...</label>
+                  </div>
+                  <!--<input type="submit" value="Add notes" class="btn blue lighten-1">--->
+                  <button class="btn blue lighten-1" type="submit" name="action">Add Notes
+                    <i class="material-icons left">add_circle_outline</i>
+                  </button>
+
+                </form>
+              </div>                          
+            </div>
+            <!---Notes List--->  
+            <div class="card-action">
+              <h5 id="task-title"><i class="material-icons left">filter_none</i>List of all Notes</h5>
+              <div class="input-field s12">
+                  <input type="text" name="filter" id="filter">
+                  <label for="filter">Search notes</label>
+              </div>
+              <ul class="collection"></ul>
+              <a href="#" class="clear-tasks btn black"><i class="material-icons left">delete_forever</i>Clear Notes</a>
+            </div>
+          </div>  
+        </div>   
+    </section>
+
+
+
+  </main>
+  <footer class="page-footer #212121 grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col 16 s12 set-centered">
+          <h5 class="white-text ">FOLLOW ME ON</h5>
+          <div class="container">
+              
+              <ul>
+                <li class="social"><a class="grey-text text-lighten-3" href="https://www.behance.net/beyondlimits1224"><img src="img/behance.png"></a></li>
+                <li class="social"><a class="grey-text text-lighten-3" href="https://www.facebook.com/jhun.sardia/"><img src="img/fb.png"></a></li>
+                <li class="social"><a class="grey-text text-lighten-3" href="https://github.com/beyondlimits1224"><img src="img/github.png"></a></li>
+                <li class="social"><a class="grey-text text-lighten-3" href="https://www.instagram.com/jhunsardia/?hl=en"><img src="img/instagram.png"></a></li>
+                <li class="social"><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UCWweC3j4svK5qUKdUtH50yg"><img src="img/youtube.png"></a></li>
+                <li class="social"><a class="grey-text text-lighten-3" href="mailto:hammettslash@gmail.com"><img src="img/gmail.png"></a></li>
+              </ul>
+
+          </div>
+        </div>
+        <div class="col l12 s12 set-centered ">
+          <h5 class="white-text">Navigate</h5>
+          <ul>
+            <li class="mActive"><a href="#!">Home</a></li>
+            <li class="social"><a href="pages/about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright #000000 black">
+      <div class="container">
+      © All Rights Resevered. 2021 TAKENOTES
+      <a class="grey-text text-lighten-4 right" href="http://www.beyondlimitscreativemasterpiece.com/">BEYONDLIMITS</a>
+      </div>
+    </div>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>     
+    <script src="js/template.js"></script>
+  </body>
+
+</html>

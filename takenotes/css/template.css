@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.bLetter {
+  font-weight: 700;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.tn {
+  font-size: x-large;
+  text-align: center;
+}
+
+.vs {
+  text-align: center;
+  color: #777676;
+}
+
+.mMargin {
+  margin: 0px 8px 0px 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  display: inline;
+  margin: auto 9px auto 0px;
+  position: relative;
+}
+
+.set-centered {
+  text-align: center;
+}
+
+.social > a {
+  color: #5c5a5a;
+}
+
+.social > a:hover {
+  transition: color 0.5s;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social > a:active {
+  color: #3b3a3a;
+}
+
+.mActive {
+  display: inline;
+  margin: auto 9px auto 0px;
+  position: relative;
+}
+
+.mActive > a {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=template.css.map */
